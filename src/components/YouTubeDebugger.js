@@ -26,7 +26,10 @@ export default class YouTubeDebugger extends React.Component {
   updateResolution = () => {
     this.setState = {
       settings: {
-        
+        ...this.state.settings,
+        video: {
+          
+        }
       }
     }
   }
