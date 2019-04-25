@@ -15,7 +15,9 @@ export default class YouTubeDebugger extends React.Component {
   }
 
   updateBitrate = () => {
-    
+    this.setState = {
+      
+    }
   }
   render() {
     return(
