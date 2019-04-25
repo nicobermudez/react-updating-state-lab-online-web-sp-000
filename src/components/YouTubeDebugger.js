@@ -12,7 +12,7 @@ export default class YouTubeDebugger extends React.Component {
           resolution: '1080p'
         }
       }
-    }
+    };
   }
 
   updateBitrate = () => {
