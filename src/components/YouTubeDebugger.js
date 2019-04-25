@@ -33,8 +33,8 @@ export default class YouTubeDebugger extends React.Component {
           resolution: '720p'
         }
       }
-    })
-  }
+    });
+  };
 
   render() {
     return(
