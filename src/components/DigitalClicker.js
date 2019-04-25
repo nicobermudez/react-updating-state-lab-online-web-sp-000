@@ -1,9 +1,8 @@
 import React from 'react';
 
-class DigitalClicker extends React.Component {
+export default class DigitalClicker extends React.Component {
   constructor() {
     super();
-
     this.state = {
       timesClicked: 0,
     };
@@ -11,15 +10,13 @@ class DigitalClicker extends React.Component {
 
   handleClick = () => {
     this.setState(prevState => ({
-      timesClicked: prevState.timesClicked+1
+      timesClicked: prevState.timesClicked+1;
     }))
   }
 
   render() {
     return (
-      <button onClick={this.handleClick}>{this.state.timesClicked}</button>
+      <button onClick={this.handleClick}>{this.state.timesClicked}></button>
     );
   }
 }
-
-export default DigitalClicker;
