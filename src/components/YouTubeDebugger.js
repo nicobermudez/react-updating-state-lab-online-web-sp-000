@@ -24,9 +24,11 @@ export default class YouTubeDebugger extends React.Component {
   }
 
   updateResolution = () => {
-
+    this.setState = {
+      
+    }
   }
-  
+
   render() {
     return(
         <button class="bitrate" onClick={this.updateBitrate}></button>
